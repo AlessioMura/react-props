@@ -1,8 +1,7 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #e5e5e5; */
 }
 
 
@@ -16,14 +15,17 @@ header {
   padding: 20px;
 }
 
-main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+main {
+  section {
+    display: flex;
+    justify-content: space-around;
+  }
+
   height: 100vh;
+
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
